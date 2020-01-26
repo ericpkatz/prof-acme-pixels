@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+main {
+  display: flex;
+  height: calc(100vh - 100px);
+}
+
+main > * {
+  flex: 1;
+  border: solid 1px black;
+}
+
+#swatches {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#swatches > div {
+  width: 1rem;
+  height: 1rem;
+  border: solid 1px black;
+}
+
+#swatches > div.selected {
+  border-color: white;
+}
